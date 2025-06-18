@@ -1,0 +1,21 @@
+#fromElement{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.draggable{
+ padding: 20px;
+ border: 1px solid #ccc;
+ cursor: grab;
+ background-color: blueviolet;
+ width: fit-content;
+
+}
+#dropcontainer{
+    width: 20px;
+    min-height: 100%;
+    border:1px double #aaa;
+    padding: 20px;
+}

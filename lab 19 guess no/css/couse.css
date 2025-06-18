@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding-left: 0%;
+    margin: 0%;
+}
+body{
+    background-color: blueviolet;
+}
+.main{
+    background-color:orangered;
+    color: aqua;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    font-size:30px;
+    padding: 20px;
+}
+.input_text{
+border: unset;
+padding: 5px;
+margin: 10px;
+font-size: 20px;
+font-weight: 900;
+
+}
+button{
+    background-color: blueviolet;
+    color: rgb(238, 11, 26);
+    border-radius: 5px;
+    border: unset;
+    cursor: pointer;
+    font-size: 20px;
+    transition: ease-in,1s;
+
+}
+button:hover{
+    color: rgb(13, 240, 25);
+    background-color:black;
+    
+
+}
