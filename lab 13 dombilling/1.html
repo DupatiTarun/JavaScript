@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./1.css">
+</head>
+<body>
+    <form action="" method="post">
+<div class="main-div">
+    <div class="form-group">
+        <label>gross amount</label>
+        <input type="number" id="grossamount"/>
+    </div>
+    <div class="form-group">
+        <label>discount amount</label>
+        <input type="number" id="discountamount" onblur="calcafterdiscount()" />
+    </div>
+    <div class="form-group" >
+        <label>after discount amount</label>
+        <input type="number" id="afterdiscountamount" />
+    </div>
+    <div class="form-group">
+        <label>tax</label>
+        <input type="number" id="tax" onblur="calcaftertaxamount( )"/>
+    </div>
+    <div class="form-group">
+        <label>after tax amount </label>
+        <input type="number" id="aftertaxamount"/>
+    </div>
+    <div class="form-group">
+        <label>tip amount</label>
+        <input type="number" id="tipamount" onblur="calcaftertip()"/>
+    </div>
+    <div class="form-group">
+        <label> net bill amount</label>
+        <input type="number" id="netbillamount"/>
+    </div>
+    <div class="form-group">
+        <label> spilt</label>
+        <input type="number" id="spilt" onblur="calceachpersonamount()"/>
+    </div>
+    <div class="form-group">
+        <label> each person amount</label>
+        <input type="number" id="eachpersonamount"/>
+    </div >
+    <div class="button-group">
+      <button input type="reset"class="button-reset">reset</button>
+        <button class="button-pay">pay</button>
+    </div>
+    
+</div>
+</form>
+
+    <script src="./1.js"></script>
+</body>
+</html>

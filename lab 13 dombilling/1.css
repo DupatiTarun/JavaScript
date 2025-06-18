@@ -1,0 +1,49 @@
+body{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+background-color:orange;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 20px;
+    margin: auto;
+    background-color:aqua;
+    border-radius: 15px;
+    color: blue;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+}
+
+button{
+    width: 80px;
+    padding:5px 0px;
+    border-radius: 10px;
+}
+.button-pay{
+    color: white;
+    background-color: green;
+    border: unset;
+}
+.button-reset{
+    color: white;
+    background-color: red;
+    border:unset;
+    
+}
+

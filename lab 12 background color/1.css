@@ -1,0 +1,29 @@
+.btn{
+    padding: 10px,15px;
+    border: unset;
+    border-radius: 15px;
+}
+.btn-red{
+    color: white;
+    background-color: red;
+}
+.btn-green{
+    color: wheat;
+    background-color:green;
+}
+.btn-orange{
+    color: wheat;
+    background-color: orange;
+}
+.btn-pink{
+    color: white;
+    background-color: pink;
+
+}
+.btn-purple{
+    color: white;
+    background-color: purple;
+}
+a:hover{
+    background-color: aqua;
+}
